@@ -1,16 +1,46 @@
-# React + Vite
+# 🏦 Banking & Loan Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack banking application built with Spring Boot and React.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 👤 Customer
+- 🔐 Secure Register & Login with JWT
+- 💳 View Account Balance & Details
+- 💰 Deposit / Withdraw / Transfer Money
+- 🏦 Apply for Loans & Track Status
+- 📊 Complete Transaction History
 
-## React Compiler
+### 🛡️ Admin
+- 👥 View All Users & Accounts
+- ✅ Approve / Reject Loan Applications
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Layer | Technology |
+|---|---|
+| Backend | Spring Boot 3.5 |
+| Security | JWT + Spring Security |
+| Database | MySQL + JPA/Hibernate |
+| Frontend | React 18 + Vite |
+| Styling | Tailwind CSS |
+| State | Redux Toolkit |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Backend
+\`\`\`bash
+cd backend
+./mvnw spring-boot:run
+\`\`\`
+
+### Frontend
+\`\`\`bash
+cd frontend
+npm install
+npm run dev
+\`\`\`
+
+## 👩‍💻 Author
+**Kiran Mai Challagulla**
+- GitHub: [@Kiranmaichallagulla](https://github.com/Kiranmaichallagulla)
