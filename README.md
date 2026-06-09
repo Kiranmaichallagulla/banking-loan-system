@@ -44,3 +44,7 @@ npm run dev
 ## 👩‍💻 Author
 **Kiran Mai Challagulla**
 - GitHub: [@Kiranmaichallagulla](https://github.com/Kiranmaichallagulla)
+
+## 🌐 Live Demo
+- **Frontend:** https://banking-loan-system-bsdjq6whm-kiranmai-challagulla-s-projects.vercel.app
+- **Backend:** https://banking-loan-system-production.up.railway.app
